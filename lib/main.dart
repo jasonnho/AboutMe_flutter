@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// Warna utama
+// Warna font
 Color primaryColor = const Color.fromARGB(255, 111, 124, 134);
 
 class AboutMe extends StatelessWidget {
@@ -99,7 +99,6 @@ class AboutMe extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 25),
-            // Bagian About yang tersisa
             Container(
               height: 40,
               width: 280,
@@ -112,7 +111,6 @@ class AboutMe extends StatelessWidget {
                 ),
               ),
             ),
-            // For bio
             Padding(
               padding: const EdgeInsets.only(top: 20, left: 17, right: 17, bottom: 20),
               child: Container(
@@ -139,7 +137,7 @@ class AboutMe extends StatelessWidget {
                 ),
               ),
             ),
-            // Bagian On The Web
+            //Socials
             Padding(
               padding: const EdgeInsets.only(left: 17, right: 17, bottom: 20),
               child: Container(
@@ -188,7 +186,7 @@ class AboutMe extends StatelessWidget {
                 ),
               ),
             ),
-            // Bagian Website dan Phone
+            // Bagian email phone
             Padding(
               padding: const EdgeInsets.only(left: 17, right: 17, bottom: 15),
               child: Container(
