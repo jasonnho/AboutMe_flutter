@@ -3,11 +3,11 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
-  runApp(const Assignment2());
+  runApp(const MyApp());
 }
 
-class Assignment2 extends StatelessWidget {
-  const Assignment2({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
