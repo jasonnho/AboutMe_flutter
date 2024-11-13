@@ -3,11 +3,11 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const Assignment2());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class Assignment2 extends StatelessWidget {
+  const Assignment2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         textTheme: GoogleFonts.latoTextTheme(),
       ),
-      home: const UserProfilePage(),
+      home: const AboutMe(),
     );
   }
 }
@@ -24,8 +24,8 @@ class MyApp extends StatelessWidget {
 // Warna utama
 Color primaryColor = const Color.fromARGB(255, 111, 124, 134);
 
-class UserProfilePage extends StatelessWidget {
-  const UserProfilePage({super.key});
+class AboutMe extends StatelessWidget {
+  const AboutMe({super.key});
 
   @override
   Widget build(BuildContext context) {
